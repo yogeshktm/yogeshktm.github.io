@@ -1,0 +1,42 @@
+body{
+  font-family: 'Sue Ellen Francisco', cursive;
+}
+.avatar{
+   font-family: 'Yesteryear', cursive;
+   font-size:60px;
+   text-align:center;
+}
+.avatar span{
+  display:inline-block;
+  position:relative;
+}
+.avatar span:before{
+  content:'';
+  width:100px;
+  height:4px;
+  background:#000;
+  position:Absolute;
+  left:-120px;
+  top:50%;
+}
+.avatar span:after{
+  content:'';
+  width:100px;
+  height:4px;
+  background:#000;
+  position:Absolute;
+  right:-120px;
+  top:50%;
+}
+h3{
+  font-size:40px;
+  text-align:center;
+}
+.insta{
+  width:50%;
+  margin:0 auto;
+}
+.insta h2{
+  font-size:35px;
+  margin-bottom:0;
+}
