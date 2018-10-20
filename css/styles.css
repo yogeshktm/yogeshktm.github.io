@@ -16,7 +16,7 @@ a{
   color:#2196F3;
 }
 .home{
-  background: URL('img/home-bg.png');
+  background: URL('../img/home-bg.png');
   background-size:100%;
   background-attachment: fixed;
   display: flex;
@@ -76,7 +76,7 @@ nav ul li span{
   text-align:center;
   background: rgba(0,0,0,0.5);
 }
-.my-works-grid-col-web img{
+.my-works-grid-col-web ../img{
   width:30%;
 }
 .my-works-grid--info h4{
@@ -173,4 +173,77 @@ nav ul li span{
 .blog .page-title{
   font-size: 60px;
   font-family: 'Italianno', cursive;
+}
+@media only screen and (max-width:1024px){
+  .home{
+    background-size:cover;
+  }
+}
+@media only screen and (max-width:990px){
+  .about{
+    flex-wrap: wrap;
+  }
+  .about-me-wrapper{
+    width:100%;
+    height:60vh;
+    flex-wrap:wrap;
+  }
+  .social-me{
+    width:100%;
+    height:40vh;
+  }
+}
+@media only screen and (max-width:767px){
+  .home{
+    background-size:cover;
+  }
+  .avatar{
+    font-size:2.5rem;
+  }
+  p{
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  .main-menu{
+    margin-top:20px;
+  }
+  .main-menu li{
+    display: block;
+    margin-bottom:5px;
+  }
+  .main-menu li span{
+    display: none;
+  }
+  .main-menu li a{
+    font-size:1.15rem;
+  }
+  .page-title{
+    font-size:1.25rem;
+  }
+  .about-me-content-wrapper{
+    flex-wrap:wrap;
+    margin:0;
+  }
+  .about-me{
+    margin:0;
+  }
+  .linked-in-profile{
+    display: none;
+  }
+  .social-me-nav ul{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .btn{
+    padding:10px;
+    margin-right:10px;
+  }
+  .my-works{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    overflow: scroll;
+  }
 }
