@@ -5,5 +5,5 @@ I am a expert web designer and a css ninja. I'm on a mission to learn javascript
 
 **Progress in my react Learning**
 
- 1. [React quote app](yogeshwaran.in/react-quote-app) 
- 2. [React weather search app](yogeshwaran.in/weather-app-react)
+ 1. [React quote app](http://yogeshwaran.in/react-quote-app) 
+ 2. [React weather search app](http://yogeshwaran.in/weather-app-react)
